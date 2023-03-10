@@ -1,0 +1,69 @@
+:root {
+    /*****************  COLORS  *****************/
+    --color-primary: #156ef4;
+    --color-dark:#20232a;
+    --color-gray: #f6f7ff;
+    --color-title: #202328;
+    --color-text: #777990;
+    --color-white: #fff;
+
+    /*****************  Typographu  *****************/
+    font-family: 'Lato', sans-serif;
+    
+    /**** Font Sizes ****/
+    --fx-xs: 1.2rem;
+    --fx-sm: 1.4rem;
+    --fx-md: 1.6rem;
+    --fx-lg: 1.7rem;
+    --fx-xl: 2rem;
+    --fx-2xl: 2.5rem;
+
+    /* font weight */
+    --fw-regular: 400;
+    --fw-meduim: 500;
+    --fw-bold: 700;
+
+    /* Width & Heigt */
+    --width-container:110rem;
+    --height-header:8rem;
+
+    /* Z-index, Transition, Border-Radius */
+    --zindex-menu:1000;
+    --zindex-fixed:1010;
+    --transition: 0.3s ease-out;
+    --b-radius: 2rem;
+    --br-radiues-lg: 3rem;
+
+    /* Shadow */
+    --shadow-heade: 0px 3px 5px rgb(0 0 5);
+    --shadow-card: 2px 0 90px rgb( 0 0 10);
+
+}
+/* CSS RESET */
+
+*,
+**::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4{
+    color: var(--color-title);
+    font-weight: var(--fw-bold);
+}
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color:var(--color-text);
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+
